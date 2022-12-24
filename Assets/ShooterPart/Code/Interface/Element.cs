@@ -46,6 +46,7 @@ namespace InfimaGames.LowPolyShooterPack.Interface
             playerCharacter = gameModeService.GetPlayerCharacter();
             //Get Player Character Inventory.
             playerCharacterInventory = playerCharacter.GetInventory();
+
         }
         
         /// <summary>

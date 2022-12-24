@@ -123,6 +123,64 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &219531699 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5944619617251629238, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+    type: 3}
+  m_PrefabInstance: {fileID: 6525658377863883269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &663064211 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4651367819670772765, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+    type: 3}
+  m_PrefabInstance: {fileID: 6525658377863883269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1583173944 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5780713632952421723, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+    type: 3}
+  m_PrefabInstance: {fileID: 6525658377863883269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1714415130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8356842064172237037, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+    type: 3}
+  m_PrefabInstance: {fileID: 6525658377863883269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1714415132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714415130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6018890da7cbac842a9c66117e41bbf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameOfThePlayer: {fileID: 1583173944}
+  bestScoreOfThePlayer: {fileID: 663064211}
+  pms: {fileID: 0}
+  connectionStatus: {fileID: 219531699}
 --- !u!850595691 &2042351625
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -192,6 +250,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1967163880045965102, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+        type: 3}
+      propertyPath: m_Name
+      value: BestScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944619617251629238, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+        type: 3}
+      propertyPath: m_text
+      value: "Connection to the server failed! \nOFFLINE GAME /w out leaderboard."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944619617251629238, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5944619617251629238, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711088160440037386, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+        type: 3}
+      propertyPath: m_text
+      value: Check the connection and Log in or Register!
+      objectReference: {fileID: 0}
     - target: {fileID: 8356842064172237036, guid: 5ed978599055e5c4e9c0a45633c3ed92,
         type: 3}
       propertyPath: m_RootOrder
@@ -251,6 +334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218041209375845939, guid: 5ed978599055e5c4e9c0a45633c3ed92,
+        type: 3}
+      propertyPath: version
+      value: v.0.2 ALPHA
       objectReference: {fileID: 0}
     - target: {fileID: 9218041209375845939, guid: 5ed978599055e5c4e9c0a45633c3ed92,
         type: 3}

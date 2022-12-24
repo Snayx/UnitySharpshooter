@@ -21,10 +21,11 @@ namespace InfimaGames.LowPolyShooterPack.Interface
             
             //Total Ammunition.
             float ammunitionCurrent = equippedWeapon.GetAmmunitionCurrent();
+
             
             
             //Update Text.
-            if (ammunitionCurrent <= 5)
+            if (ammunitionCurrent <= (equippedWeapon.GetAmmunitionTotal()*0.15))
             {
                 textMesh.text = "Press 'R' to Reload!";
             }

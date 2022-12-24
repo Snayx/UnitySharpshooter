@@ -90,6 +90,8 @@ public class MainMenuManager : MonoBehaviour
     [Header("Audio")]
     [SerializeField] AudioSource audioSource;
 
+
+
     Resolution[] resolutions;
 
     #endregion
@@ -250,6 +252,20 @@ public class MainMenuManager : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void connectToServer()
+    {
+        fadeAnimator.SetTrigger("FadeOut");
+        sceneToLoad = "Login_Register_Scene";
+        StartCoroutine(WaitToLoadLevel());
+    }
+
+    public void goToLeaderboard()
+    {
+        fadeAnimator.SetTrigger("FadeOut");
+        sceneToLoad = "LeaderBoard_Scene";
+        StartCoroutine(WaitToLoadLevel());
     }
     #endregion
 
